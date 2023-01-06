@@ -83,3 +83,74 @@ body{
     background-color: #F15B22;
     color: #FFFFFF;
 }
+
+/* Previous Failure Section Style */
+
+.prev-failer-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 90px 160px 90px 200px;
+}
+.prev-content{
+    width: 30%;
+    margin: auto;
+}
+
+.prev-title{
+    font-size: 48px;
+    margin-bottom: 26px;
+    font-weight: 900;
+    color: #151414;
+}
+
+.prev-discription{
+    font-size: 19px;
+    margin-bottom: 26px;
+    color: #4d4b4b;
+}
+.prev-list{
+    list-style: none;
+    list-style-image: url('../images/icons/tick.png');
+    padding-left: 20px;
+    font-size: 19px;
+    color: #4d4b4b;
+}
+
+.prev-list li{
+    padding: 10px 0;
+}
+/* Plans Section Style */
+
+.plan-secton{
+    margin: 60px 40px;
+}
+.plan-title{
+    text-align: center;
+    font-size: 48px;
+    color: #151414;
+    margin-bottom: 60px;
+    font-weight: 800;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+}
+.plan{
+    text-align: center;
+}
+
+.plan-heading{
+    font-size: 32px;
+    font-weight: 600;
+    color: #151414;
+    padding: 10px;
+}
+
+.plan-sub-heading{
+    font-size: 17px;
+    color: #4d4b4b;
+    font-weight: 600;
+    padding: 10px;
+}
