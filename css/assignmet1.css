@@ -164,7 +164,9 @@ body{
     width: 60%;
     padding: 60px 0;
     margin: auto;
+    /* Here i am confiused which one i will use "gradient.png" file or "linear gradient" so that's why i'm using both but i comment the gradient image */
     background-image: linear-gradient(to right, rgba(241, 91, 34,1), rgba(255,100,0,0)),url('../images/watch.png');
+    /* background-image: url('../images/gradient3.png'),url('../images/watch.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
