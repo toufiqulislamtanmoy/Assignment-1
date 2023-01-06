@@ -22,6 +22,7 @@ body{
 
 .logo{
     font-family: 'Montserrat Subrayada', sans-serif;
+    cursor: pointer;
 }
 
 .logo span{
@@ -80,7 +81,7 @@ body{
     padding: 20px 30px;
     border: none;
     border-radius: 5px;
-    background-color: #F15B22;
+    background-color: rgb(241, 91, 34);
     color: #FFFFFF;
 }
 
@@ -123,7 +124,8 @@ body{
 /* Plans Section Style */
 
 .plan-secton{
-    margin: 60px 40px;
+    width: 70%;
+    margin: 120px auto;
 }
 .plan-title{
     text-align: center;
@@ -153,4 +155,94 @@ body{
     color: #4d4b4b;
     font-weight: 600;
     padding: 10px;
+}
+/* Motivation Sction */
+.motivation{
+    margin-bottom: 100px;
+}
+.content{
+    width: 60%;
+    padding: 60px 0;
+    margin: auto;
+    background-image: linear-gradient(to right, rgba(241, 91, 34,1), rgba(255,100,0,0)),url('../images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.heading{
+    
+    font-size: 48px;
+    color: white;
+    width: 50%;
+    margin-left: 60px;
+}
+
+/* call button style */
+.call-now-btn{
+    padding: 20px 30px;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px 0 0 60px;
+    cursor: pointer;
+}
+/* Footer Style */
+.footer-container{
+    background-color: #151414;
+    display: flex;
+    color: white;
+    margin: auto;
+}
+
+.footer-content{
+    margin:5% 5% 5% 20%;
+}
+
+
+
+.footer-heading{
+    font-size: 48px;
+    margin: 20px 0px;
+}
+.footer-description{
+    width: 70%;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* social links style */
+.social-link img{
+    margin-top: 18px;
+    padding-right: 12px;
+}
+
+/* Subscribe section style */
+.subscribe{
+    margin:6% 20% 5% 5% ;
+}
+.subscribe-heading{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.subscribe-form input{
+    border: 1px solid white;
+    outline: none;
+    padding: 20px 30px;
+    width: 280px;
+    background-color: #151414;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.subscribe-btn{
+    padding: 20px 30px;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
 }
