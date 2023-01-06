@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* Navbar Style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 77px 20px 77px ;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #F15B22;
+}
+
+.nav-container{
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.logo span{
+    font-size: 26px;
+    color:#F15B22;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #444343;
+    font-weight: 800;
+}
+
+.nav-link:hover{
+    color: #F15B22;
+}
+
+
+/* Banner Style */
+.banner{
+    background-image: url('../images/banner/banner1.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.banner-container{
+    text-align: right;
+    width: 35%;
+    margin-right: 250px;
+}
+
+.banner-title{
+    font-size: 80px;
+    font-weight: 800;
+    text-align: right;
+    margin-bottom: 30px;
+    color: #151414;
+}
+
+.banner-discription{
+    font-size: 18px;
+    color: #444343;
+    margin-bottom: 30px;
+}
+
+.banner-btn{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+}
